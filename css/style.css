@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(248, 238, 239);
+   }
+   img{
+       width: 300px;
+       height: 300px;
+   }
+   #spinner{
+       display: none;
+   }
+   #book-details{
+      grid-template-columns: repeat(3,1fr);
+   }
+   .col{
+     width: 350px;
+   }
+   #Error-sms{
+    display: none;
+   }
+   #emptys{
+     display: none;
+   }
+   h5{
+     color: seagreen;
+   }
+   h6{
+     color: coral;
+   }
+   
+   /* -------------------------
+          media quarryes
+   -------------------------------*/
+   /* -------------------------
+          mobile device
+   -------------------------------*/
+   
+   @media only screen and (max-width:688px){
+     #book-details{
+     grid-template-columns: repeat(1,1fr);
+     
+    }
+   } 
+   
+    /*--------------------
+     tablet devices
+     ------------------------ */
+    @media only screen and (min-width:689px) and (max-width:992px) {
+     #book-details{
+       grid-template-columns: repeat(2,1fr);
+     
+    }
+   }
+   
